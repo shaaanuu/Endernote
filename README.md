@@ -1,71 +1,57 @@
-# **EnderNote**
+# EnderNote
 
-No clouds, no nonsense. Just fast, clean note-taking for people who actually write things down. Whether it's grocery lists or genius ideas at 3 AM, EnderNote’s got your back.
+A local-first, Markdown note-taking app built with Flutter.
 
-(It's Markdown syntax, btw).
+<p align="center">
+  <img src="screenshots/1.png" width="30%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/2.png" width="30%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/3.png" width="30%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/4.png" width="30%" />
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="screenshots/5.png" width="30%" />
+</p>
 
-## **✨ Features**
+## Features
 
-### **Built for Productivity**
+- **Markdown**: write in Markdown, toggle live preview anytime
+- **Chests**: vault-style folders to organize notes by project or context
+- **Full-text search**: search across all notes instantly
+- **Themes**: Catppuccin Mocha, Nord Dark, Nord Light
+- **Local storage**: all data stays on device via [Isar](https://github.com/isar/isar) embedded DB
+- **Cross-platform**: Android, Linux, Windows _(macOS and iOS builds currently unavailable)_
 
-- 📝 **Markdown Support**: Write with Markdown, see live previews.
-- 🔍 **Full-Text Search**: Quickly find your notes.
-- 📁 **Organized Folders**: Keep your workspace tidy and intuitive.
-
-## **🚀 Why EnderNote?**
-
-- **Open Source**: Free and customizable for your needs.
-- **Cross-Platform**: Runs on Android, Linux, Windows. _(macOS and iOS builds currently unavailable.)_
-- **Lightning-Fast**: Powered by Flutter, ensuring smooth performance on every device.
-
-## **📸 Screenshots**
-
-<img src="screenshots/1.png" width="300" />
-<img src="screenshots/2.png" width="300" />
-<img src="screenshots/3.png" width="300" />
-<img src="screenshots/4.png" width="300" />
-<img src="screenshots/5.png" width="300" />
-
-## **🚦 Quick Start**
-
-### **Clone the Repo**
+## Getting Started
 
 ```bash
 git clone https://github.com/shaaanuu/endernote.git
 cd endernote
-```
-
-### **Install Dependencies**
-
-```bash
 flutter pub get
-```
-
-### **Run the App**
-
-```bash
 flutter run
 ```
 
-## **🙌 Acknowledgements**
+### Android
 
-EnderNote exists thanks to:
+Grab a prebuilt APK from [Releases](https://github.com/shaaanuu/endernote/releases):
 
-- 🌿 **[Flutter](https://flutter.dev)**: The engine behind smooth, cross-platform magic.
-- 💡 **[Obsidian](https://obsidian.md)**: The spark of inspiration that led us here.
+| Variant | For |
+| --- | --- |
+| `android-universal.apk` | Most devices |
+| `android-arm64-v8a.apk` | 64-bit ARM |
+| `android-armeabi-v7a.apk` | 32-bit ARM |
+| `android-x86_64.apk` | x86 64-bit |
+| `android-legacy.apk` | Older devices (Impeller disabled) |
 
-Special thanks to the open-source community—building the future, one commit at a time. 🚀
+### Linux / Windows
 
-## **📜 License**
+Download `linux.zip` or `windows.zip` from [Releases](https://github.com/shaaanuu/endernote/releases) and extract.
 
-Licensed under [MIT](https://github.com/shaaanuu/endernote/blob/main/LICENSE). Do whatever you want (responsibly).
+## Contributing
 
-## **🤝 Contributing**
+Bug reports, feature requests, and PRs are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) for details.
 
-We’d love your help to make EnderNote even better! Here’s how you can contribute:
+## License
 
-1. **Report Issues**: Found a bug? Open an issue [here](https://github.com/shaaanuu/endernote/issues).
-2. **Submit Features**: Have an idea? Let’s discuss it in the issues or pull requests.
-3. **Code Contributions**: Fork the repo, create a branch, and submit a pull request.
-
-For more details, check out our [CONTRIBUTING.md](https://github.com/shaaanuu/endernote/blob/main/CONTRIBUTING.md).
+[MIT](LICENSE)
